@@ -1,0 +1,97 @@
+ 
+body {
+    background-color: papayawhip;
+  }
+a{
+ display: inline;
+ font-size: 25px;
+ margin-left: 30px;
+ color : pink; 
+text-decoration: none
+}
+ 
+a:hover {
+   color: blue;
+    background-color:blanchedalmond;
+  text-decoration:underline;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 5em;
+    font-family: cursive ;
+   margin-left: 85px;
+}
+
+h1:hover {
+color: brown;
+background-color:azure;
+text-decoration: underline
+}
+
+h2{ 
+    color: rgb(214, 19, 201);
+    font-size: x-large;
+  font-style: oblique;
+  font-stretch: expanded;
+  text-shadow: 2px 2px #ebafaf; 
+}
+
+h2:hover {
+    color: rgb(169, 251, 206);
+background-color:rgb(159, 255, 255);
+text-decoration: surline;
+}
+
+img {
+    border-color: crimson;
+    border-style: groove;
+    border-radius: 50%;
+}
+p{
+   display: inline-block; 
+    font-family: "roboto"; 
+    color: darkslateblue;
+   text-align: justify;
+   font-size: 20 px; 
+   margin-top: 5%; 
+
+}
+p.desc {
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 50 px;
+     text-align: center; 
+     color: blue; 
+}
+
+p.memory {
+    color: fuchsia;   
+    text-align: right; 
+    text-decoration: dotted;
+}
+
+table,tr,th,td{
+     border: 3px solid;
+     border-collapse: collapse;
+ border-color: aquamarine;
+ border-radius: 30%; 
+text-align: center; 
+margin-top: 10%;
+} 
+
+form.contact {
+    margin-left: auto; 
+    font-size: x-large;
+    font-style: italic;   
+}
+
+#up {
+     font-size: 40px; 
+     margin-left: 350px;
+     margin-top: 40%;
+}
+
+#up:hover { color: rgb(83, 4, 48);
+    background-color:rgb(9, 100, 100);
+    text-decoration: underline  
+}
